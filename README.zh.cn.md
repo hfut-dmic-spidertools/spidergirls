@@ -1,27 +1,27 @@
 # SpiderGirls
-SpiderGirls is an open source web crawler framework based on Java.It provides
-  some simple interfaces for crawling the results from kinds of Search Engine. 
+SpiderGirls是一个java的搜索引擎爬取框架，可以用来爬取不同搜索引擎的查询结果。
 
 
-##HomePage
+##主页
 [https://github.com/hfut-dmic-spidertools/spidergirls](https://github.com/hfut-dmic-spidertools/spidergirls)
 
 
-##Installation
+##安装
 
-SpiderGirls jars are available on the [HomePage](https://github.com/hfut-dmic-spidertools/spidergirls)
+SpiderGirls jars可以在主页上获得。 [主页](https://github.com/hfut-dmic-spidertools/spidergirls)
 
 + __spidergirls-0.1-betaq-bin.zip__ contains core jars.
 
 
-##Interface Introduction
+##接口介绍
 Search.search(String keyword,String engineName,int pageCount)
-+ keyword -- search keyword
-+ engineName -- the name of engine which you want to use,for now we can use bing and sougou search engine
-+ pageCount -- the page count of search enginge results
++ keyword -- 搜索的关键词
++ engineName -- 搜索引擎的名字，即是选择获取结果的搜索引擎，现在支持Bing搜索和SouGou搜索
++ pageCount -- 获取搜索引擎结果的页数
 
 
-##Demo
+##举例
+获取Bing搜索关键词computer的两页结果
     public static void main(String args[]) {
        
         SearchItems arr = new SearchItems();
@@ -44,7 +44,6 @@ Search.search(String keyword,String engineName,int pageCount)
     }
 
 
-##Version 
+##版本号 
 0.1
 
-###Other Documentation
