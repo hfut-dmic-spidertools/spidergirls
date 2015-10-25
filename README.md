@@ -17,7 +17,7 @@ SpiderGirls jars are available on the [HomePage](https://github.com/hfut-dmic-sp
 ##interface introduce
 Search.search(String keyword,String engineName,int pageCount),
 + keyword--search kyword
-+　engineName--the name of engine which you want to use,for now we can use bing and sougou search engine
++ engineName--the name of engine which you want to use,for now we can use bing and sougou search engine
 + pageCount-- the page count of search enginge results
 
 
@@ -41,6 +41,7 @@ Search.search(String keyword,String engineName,int pageCount),
             System.out.println("content\t" + sni.getContent());
             System.out.println();
         }
+    }
 
 ##Version 
 0.1
