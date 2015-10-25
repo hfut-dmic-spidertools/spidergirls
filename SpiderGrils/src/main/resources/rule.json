@@ -1,0 +1,36 @@
+{
+  "enable":[
+    "bing",
+    "sogou"
+  ],
+  "rules":[
+    {
+      "baseURL":"http://cn.bing.com/search?",
+      "queryParam":"q",
+      "pageParam":"first",
+      "pageMulti":10,
+      "pageOffset":-10,
+      "name":"bing",
+      "itemCSS":"ol#b_results li[class=b_algo]",
+      "titleCSS":"h2>a",
+      "contentCSS":"p"
+    },
+    {
+      "baseURL":"https://www.sogou.com/web?",
+      "queryParam":"query",
+      "pageParam":"page",
+      "pageMulti":1,
+      "pageOffset":0,
+      "name":"sogou",
+      "itemCSS":"div.rb,div.vrwrap",
+      "titleCSS":"h3>a",
+      "contentCSS":"p,div.ft"
+    }
+
+
+
+
+
+  ]
+
+}
