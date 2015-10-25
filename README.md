@@ -48,4 +48,4 @@ Search.search(String keyword,String engineName,int pageCount)
 0.1
 
 ##Other Documentation
-+ [中文文档](https://github.com/hfut-dmic-spidertools/spidergirls/blob/master/README.zh-cn.md)
++[中文文档](https://github.com/hfut-dmic-spidertools/spidergirls/blob/master/README.zh-cn.md)
