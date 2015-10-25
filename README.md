@@ -4,7 +4,7 @@ SpiderGirls is an open source web crawler framework based on Java.It provides
 
 
 ##HomePage
-[https://github.com/hfut-dmic-spidertools/spidergirls](https://github.com/hfut-dmic-spidertools/spidergirls
+[https://github.com/hfut-dmic-spidertools/spidergirls](https://github.com/hfut-dmic-spidertools/spidergirls)
 
 
 ##Installation
